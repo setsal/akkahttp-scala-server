@@ -1,0 +1,22 @@
+akka {
+  loglevel = WARNING
+}
+
+http {
+  interface = "0.0.0.0"
+  port = 8080
+}
+
+
+database {
+    url = "jdbc:mysql://localhost:3306/akkahttp?useUnicode=true&characterEncoding=UTF-8"
+    driver = "com.mysql.jdbc.Driver"
+    user = ""
+    password = ""
+    numThreads = 4
+    maxConnections = 8
+    minConnections = 2
+    registerMbeans = true
+
+  numberOfThreads = 10
+}
