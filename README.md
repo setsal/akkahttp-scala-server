@@ -4,7 +4,7 @@
 
 - SBT
 - Scala
-- Mariadb
+- Mariadb or Mysql
 
 ## Configuration
 
